@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: #ff7f50;
+  height: 200px;
+  flex: 1;
+  display: flex;
+}
+.products {
+  background-color: #006400;
+  height: 200px;
+  flex: 1;
+  display: flex;
+}
+.news {
+  background-color: #0ff;
+  height: 200px;
+  flex: 1;
+  display: flex;
+}
+span {
+  text-transform: lowercase;
+  font-family: Verdana;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faebd7;
+  margin: auto;
+}
+@media screen and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+}
